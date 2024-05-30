@@ -1,0 +1,182 @@
+/* 
+    Document   : user_signup
+    Created on : 2 Mar, 2023, 10:15:23 AM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+    
+.c{
+    
+  background-image:  url(images/user_sign_up.jpg);
+  background-size: cover;
+}
+.whitediv{
+    height: 650px;
+    width: 600px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: 4px solid ;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.textbox
+{
+    height: 40px;
+    width: 220px;
+    background-color: transparent;
+    color:whitesmoke;
+    font-size: 18px;
+    border-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: none; 
+    border-top: none; 
+    border-right: none; 
+}
+.h1{
+    margin-left: 200px;
+    font-size: 35px;
+    font-style: italic;
+}
+.h{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.signinbutton
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    height: 45px;
+    width: 150px;
+    border-radius: 23px;
+    background-color: skyblue;
+    color: black;
+}
+.signinbutton:hover
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 23px;
+    background-color: yellow;
+    color: black;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size:18px;
+  color: whitesmoke;
+}
+
+
+h2,
+h3,
+a {
+	color: skyblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+        font-size: 18px;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+        font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color:whitesmoke;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: transparent;
+        color: whitesmoke;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

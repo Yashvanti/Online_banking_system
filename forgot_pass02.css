@@ -1,0 +1,68 @@
+/* 
+    Document   : forgot_pass02
+    Created on : 3 Mar, 2023, 6:40:10 PM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root 
+{ 
+    display: block;
+}
+
+body
+{
+    background-image: url(images/pic2.jpg);
+    background-size: cover;
+}
+.mydiv
+{
+    height: 540px;
+    width: 400px;
+    background-color: white;
+    margin: 90px 0 20px 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.h
+{
+    margin: 0 0 0 30px;
+}
+
+.textbox
+{
+    height: 45px;
+    width: 290px;
+    font-size: 18px;
+    margin: 10px 0 0 30px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.button
+{
+    background-size: cover;
+    height: 45px;
+    width: 230px;
+    font-size: 18px;
+    margin: 40px 0 0 90px;
+    background-color: green;
+    color: white;
+    border-radius: 15px; 
+}
+.button:hover
+{
+    background-size: cover;
+     height: 42px;
+    width: 232px;
+    margin: 41px 0 0 91px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+}
+.l
+{
+    margin:20px 0 0 30px;
+}

@@ -1,0 +1,215 @@
+/* 
+    Document   : new_acc
+    Created on : 2 Mar, 2023, 10:21:24 AM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.cc{
+    background-image:url(images/background.png);
+    background-size:100%;  
+}
+.whitediv{
+    height: 820px;
+    width: 820px;
+    background-color:transparent;
+    outline:5px solid whitesmoke;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-top:10px;
+    margin-left:200px;
+}
+.h1
+{
+    margin-left: 250px;
+    font-size: 35px;
+    color: red;
+    font-style: italic;
+}
+.textbox
+{
+    height: 50px;
+    width: 250px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    color: black;
+    border-radius: 23px; 
+    margin-top: 20px;
+    border-left: none; 
+    border-top: none; 
+    border-right: none;
+}
+.h
+{
+    font-size: 23px;
+    margin-top: 20px;
+    color: black;
+}
+.gender
+{
+    height: 35px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;       
+}
+.selectloan
+{
+    height: 35px;
+    width: 200px;
+    color: black;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.loginbutton
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+    height: 45px;
+    width: 150px;
+    border-radius: 23px;
+    background-color:lightseagreen;
+    color: whitesmoke;
+}
+.loginbutton:hover
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 23px;
+    background-color: yellow;
+    color: black;
+}
+.cancelbutton
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 23px;
+    background-color: red;
+    color: whitesmoke;
+}
+.cancelbutton:hover
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 23px;
+    background-color: yellow;
+    color:black;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  list-style: none;
+  color: black;
+}
+
+
+h2,
+h3,
+a {
+	color: skyblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: black;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: transparent;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

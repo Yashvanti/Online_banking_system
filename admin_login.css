@@ -1,0 +1,85 @@
+/* 
+    Document   : admin_login
+    Created on : 2 Mar, 2023, 6:46:04 PM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body
+{  
+    background-image: url(images/mobile-banking-smartphone.webp);
+    background-size: cover;
+}
+.whitediv
+{
+    height: 500px;
+    width: 450px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    margin-left:550px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.h
+{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: darkblue;
+    font-style: italic;
+}
+
+.textbox
+{
+    height: 45px;
+    width: 220px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+        
+}
+
+.link
+{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 50px;
+    color:navy;
+}
+.loginbutton
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 23px;
+    background-color: skyblue;
+    color: black;
+}
+.loginbutton:hover
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 23px;
+    background-color: yellow;
+    color:black;
+}
+.link2
+{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 50px;
+    color:black;
+}
+

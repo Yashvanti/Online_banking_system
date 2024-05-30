@@ -1,0 +1,60 @@
+/* 
+    Document   : report
+    Created on : 4 May, 2023, 10:33:22 AM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body
+{
+    background-color: gray;
+}
+.whitediv{
+    height: 620px;
+    width: 720px;
+    background-color:transparent;
+    outline:5px solid whitesmoke;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-top:1px;
+    margin-left:200px;
+}
+
+    .textbox
+{
+    height: 50px;
+    width: 250px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    color: black;
+    border-radius: 23px; 
+    margin-top: 40px;
+    border-left: none; 
+    border-top: none; 
+    border-right: none;
+    margin-left: 20px;
+}
+.textbox1
+{
+  height: 50px;
+    width: 250px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    color: black;
+    border-radius: 23px; 
+    margin-top: 80px;
+    border-left: none; 
+    border-top: none; 
+    border-right: none;
+    margin-left: 210px;
+ 
+}
+label
+{
+    font-size: 35px;
+    margin-left: 250px;
+    color: white;
+}

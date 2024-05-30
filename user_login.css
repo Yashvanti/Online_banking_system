@@ -1,0 +1,79 @@
+/* 
+    Document   : user_login
+    Created on : 2 Mar, 2023, 9:57:37 AM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body
+{
+    background-image: url('images/user_login.jpg');
+    background-size: cover;
+}
+.whitediv
+{
+    height: 480px;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 80px;
+    outline: 5px solid yellowgreen;
+    box-shadow:5px 5px 5px 5px black;
+}
+.h
+{
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: green;
+    font-style: italic;
+}
+.h1
+{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: darkblue;
+}
+.textbox
+{
+    height: 45px;
+    width: 220px;
+    border-radius: 20px;
+    font-size:18px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+        
+}
+
+.link
+{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.link2
+{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.button
+{
+ height: 45px;
+ width: 150px;
+ background-color:greenyellow;
+ border-radius: 25px;
+ font-size: 18px;  
+ color: black;
+ margin-left: 90px;
+ margin-top:50px;
+}

@@ -1,0 +1,218 @@
+/* 
+    Document   : online_statement
+    Created on : 2 Mar, 2023, 6:40:09 PM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body
+{
+    background-image:url(images/bank.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.whitediv
+{
+    height: 300px;
+    width: 800px;
+    background-color:transparent;
+    outline: 5px solid green;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.selectaccount
+{
+    height: 30px;
+    width: 60px;
+    color: black;
+    background-color: transparent;
+    font-size: 18px;
+    margin-top:40px;
+}
+.h
+{
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.textbox
+{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    font-size: 18px;
+    color: black;
+    border-color:yellowgreen;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-left: none; 
+    border-top: none;
+    border-right:none;
+}
+.button
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 45px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 23px;
+    background-color: yellowgreen;
+    color: black;
+}
+.button:hover
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 90px;
+    border-radius: 23px;
+    background-color: yellow;
+    color: black;
+}
+
+
+table{
+  width:80%;
+  table-layout: fixed;
+  margin-top: 50px;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+  margin-top: 50px;
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  color:black;
+  background-color: greenyellow;
+  text-transform: uppercase;
+}
+td
+{
+    background-color:whitesmoke;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+
+h2,
+h3,
+a {
+	color: skyblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color:black;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: transparent;
+        color: whitesmoke;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

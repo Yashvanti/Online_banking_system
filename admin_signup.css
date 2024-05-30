@@ -1,0 +1,75 @@
+/* 
+    Document   : admin_signup
+    Created on : 2 Mar, 2023, 6:52:16 PM
+    Author     : lenovo1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.c
+{
+  background-image:url(images/pic3.jpg);
+  background-size: cover;
+}
+.whitediv{
+    height: 650px;
+    width: 600px;
+    color: white;
+    outline: 5px solid whitesmoke;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left:50px;
+}
+.textbox
+{
+    height: 40px;
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    border-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: none; 
+    border-top: none; 
+    border-right: none; 
+}
+.h1{
+    margin-left: 350px;
+    font-size: 35px;
+    font-style: italic;
+}
+.h{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.signinbutton
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 45px;
+    width: 150px;
+    font-size:20px;
+    border-radius: 23px;
+    background-color: skyblue;
+    color: black;
+}
+
+
+.signinbutton:hover
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 23px;
+    background-color: yellow;
+    color:black;
+}
